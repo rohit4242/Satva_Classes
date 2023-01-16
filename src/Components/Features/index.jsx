@@ -1,4 +1,8 @@
 import React from "react";
+import feature_icon_1 from "../../assets/images/feature-icon-1.png";
+import feature_icon_2 from "../../assets/images/feature-icon-2.png";
+import feature_icon_3 from "../../assets/images/feature-icon-3.png";
+import coure_features_img from "../../assets/images/coure-features-img.jpg";
 
 const index = () => {
   return (
@@ -12,7 +16,7 @@ const index = () => {
           <li class="features-item">
             <div class="item-icon-box blue">
               <img
-                src="./assets/images/feature-icon-1.png"
+                src={feature_icon_1}
                 alt="feature icon"
               />
             </div>
@@ -30,7 +34,7 @@ const index = () => {
           <li class="features-item">
             <div class="item-icon-box pink">
               <img
-                src="./assets/images/feature-icon-2.png"
+                src={feature_icon_2}
                 alt="feature icon"
               />
             </div>
@@ -48,7 +52,7 @@ const index = () => {
           <li class="features-item">
             <div class="item-icon-box purple">
               <img
-                src="./assets/images/feature-icon-3.png"
+                src={feature_icon_3}
                 alt="feature icon"
               />
             </div>
@@ -67,7 +71,7 @@ const index = () => {
 
       <div class="features-right">
         <img
-          src="./assets/images/coure-features-img.jpg"
+          src={coure_features_img}
           alt="core features "
         />
       </div>

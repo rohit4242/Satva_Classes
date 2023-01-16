@@ -1,4 +1,5 @@
 import React from "react";
+import event_img from "../../assets/images/event-img.jpg";
 
 const index = () => {
   return (
@@ -6,7 +7,7 @@ const index = () => {
       <div class="event-left">
         <div class="event-banner">
           <img
-            src="./assets/images/event-img.jpg"
+            src={event_img}
             alt="event banner"
             class="banner-img"
           />

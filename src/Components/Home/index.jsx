@@ -33,18 +33,18 @@ const index = () => {
       </div>
 
       <div className="home-left">
-        <p className="section-subtitle">Welcome To Online Coaching</p>
+        <p className="section-subtitle">Welcome To Satva Institute</p>
 
         <h1 className="main-heading">
-          Get Class From Top
+        Creteing a brighter future through 
           <span className="underline-img">
-            Instructor <img src={banner_line} alt="line" />
+          Education <img src={banner_line} alt="line" />
           </span>
         </h1>
 
         <p className="section-text">
-          Integer in magna in est ultrices bibendum eget enim et dui imperdiet
-          faucibus. Fusce eu tristique felis.
+        We are committed to providing a world-class education to students of all ages. Our experienced faculty and state-of-the-art facilities create a dynamic and engaging learning environment. Explore our programs and resources to find out how we can support your academic journey. 
+        Join us and discover the limitless potential of education.
         </p>
 
         <div className="home-btn-group">

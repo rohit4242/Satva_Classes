@@ -1,4 +1,8 @@
 import React from "react";
+import about_img_bg from "../../assets/svg/bg-image.png";
+import about_img from "../../assets/images/about-img.png";
+import banner_aliment_icon_1 from "../../assets/svg/banner-aliment-icon-1.svg";
+import banner_aliment_icon_3 from "../../assets/svg/banner-aliment-icon-2.svg";
 
 const index = () => {
   return (
@@ -6,28 +10,28 @@ const index = () => {
       <div class="about-left">
         <div class="img-box">
           <img
-            src="./assets/images/about-img-bg.png"
+            src={about_img_bg}
             alt="about bg"
             class="about-bg"
           />
 
           <img
-            src="./assets/images/about-img.png"
+            src={about_img}
             alt="about person"
             class="about-img"
           />
 
           <img
-            src="./assets/images/banner-aliment-icon-1.png"
+            src={banner_aliment_icon_1}
             alt=""
             class="icon-1 smooth-zigzag-anim-1"
             width="250"
           />
           <img
-            src="./assets/images/banner-aliment-icon-3.png"
+            src={banner_aliment_icon_3}
             alt=""
             class="icon-2 smooth-zigzag-anim-3"
-            width="195"
+            width="240"
           />
         </div>
       </div>

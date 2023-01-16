@@ -1,9 +1,13 @@
 import React from "react";
+import course_1 from "../../assets/images/course-1.jpg";
+import course_2 from "../../assets/images/course-2.jpg";
+import course_3 from "../../assets/images/course-3.jpg";
+import course_4 from "../../assets/images/course-4.jpg";
+import course_5 from "../../assets/images/course-5.jpg";
+import course_6 from "../../assets/images/course-6.jpg";
 
-// import about_img_bg from "../../Assets/images/about-img-bg.png";
-// import about_img from "../../Assets/images/about-img.png";
-// import banner_aliment_icon_1 from "../../Assets/images/banner-aliment-icon-1.png";
-// import banner_aliment_icon_3 from "../../Assets/images/banner-aliment-icon-3.png";
+import course_instructor_img from "../../assets/images/course-instructor-img.jpg";
+import student_icon from "../../assets/images/student-icon.png";
 
 const index = () => {
   return (
@@ -15,7 +19,7 @@ const index = () => {
       <div class="course-grid">
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-1.jpg" alt="course banner" />
+            <img src={course_1} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -35,7 +39,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -56,7 +60,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>600k</p>
@@ -67,7 +71,7 @@ const index = () => {
 
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-2.jpg" alt="course banner" />
+            <img src={course_2} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -87,7 +91,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -108,7 +112,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>545k</p>
@@ -119,7 +123,7 @@ const index = () => {
 
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-3.jpg" alt="course banner" />
+            <img src={course_3} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -139,7 +143,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -160,7 +164,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>317k</p>
@@ -171,7 +175,7 @@ const index = () => {
 
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-4.jpg" alt="course banner" />
+            <img src={course_4} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -191,7 +195,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -212,7 +216,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>891k</p>
@@ -223,7 +227,7 @@ const index = () => {
 
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-5.jpg" alt="course banner" />
+            <img src={course_5} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -243,7 +247,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -264,7 +268,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>204k</p>
@@ -275,7 +279,7 @@ const index = () => {
 
         <div class="course-card">
           <div class="course-banner">
-            <img src="./assets/images/course-6.jpg" alt="course banner" />
+            <img src={course_6} alt="course banner" />
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
@@ -295,7 +299,7 @@ const index = () => {
             <div class="wrapper border-bottom">
               <div class="author">
                 <img
-                  src="./assets/images/course-instructor-img.jpg"
+                  src={course_instructor_img}
                   alt="course instructor image"
                   class="author-img"
                 />
@@ -316,7 +320,7 @@ const index = () => {
 
               <div class="enrolled">
                 <div class="icon-user">
-                  <img src="./assets/images/student-icon.png" alt="user icon" />
+                  <img src={student_icon} alt="user icon" />
                 </div>
 
                 <p>1.3M</p>
