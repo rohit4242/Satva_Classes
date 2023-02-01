@@ -1,119 +1,123 @@
 import React from "react";
+import  instructor_1  from "../../assets/images/instructor-1.jpg";
+import  instructor_2  from "../../assets/images/instructor-2.jpg";
+import  instructor_3  from "../../assets/images/instructor-3.jpg";
+import  instructor_4  from "../../assets/images/instructor-4.jpg";
 
 const index = () => {
   return (
-    <section class="instructor">
-      <p class="section-subtitle">Best Coach</p>
+    <section className="instructor">
+      <p className="section-subtitle">Best Coach</p>
 
-      <h2 class="section-title">Our Expert Instructor</h2>
+      <h2 className="section-title">Our Expert Instructor</h2>
 
-      <div class="instructor-grid">
-        <div class="instructor-card">
-          <div class="instructor-img-box">
+      <div className="instructor-grid">
+        <div className="instructor-card">
+          <div className="instructor-img-box">
             <img
-              src="./assets/images/instructor-1.jpg"
-              alt="instructor louis sullivan"
+              src={instructor_1}
+              alt="instructor Biren"
             />
 
-            <div class="social-link">
-              <a href="#" class="facebook">
+            <div className="social-link">
+              <a href="#" className="facebook">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
 
-              <a href="#" class="instagram">
+              <a href="#" className="instagram">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
 
-              <a href="#" class="twitter">
+              <a href="#" className="twitter">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </div>
           </div>
 
-          <h4 class="instructor-name">Louis Sullivan</h4>
+          <h4 className="instructor-name">Mitul</h4>
 
-          <p class="instructor-title">Instructor</p>
+          <p className="instructor-title">Director</p>
         </div>
 
-        <div class="instructor-card">
-          <div class="instructor-img-box">
+        <div className="instructor-card">
+          <div className="instructor-img-box">
             <img
-              src="./assets/images/instructor-2.jpg"
-              alt="instructor camden david"
+              src={instructor_2}
+              alt="instructor Biren"
             />
 
-            <div class="social-link">
-              <a href="#" class="facebook">
+            <div className="social-link">
+              <a href="#" className="facebook">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
 
-              <a href="#" class="instagram">
+              <a href="#" className="instagram">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
 
-              <a href="#" class="twitter">
+              <a href="#" className="twitter">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </div>
           </div>
 
-          <h4 class="instructor-name">Camden David</h4>
+          <h4 className="instructor-name">Biren</h4>
 
-          <p class="instructor-title">Instructor</p>
+          <p className="instructor-title">Tutor</p>
         </div>
 
-        <div class="instructor-card">
-          <div class="instructor-img-box">
+        <div className="instructor-card">
+          <div className="instructor-img-box">
             <img
-              src="./assets/images/instructor-3.jpg"
-              alt="instructor fiona dean"
+              src={instructor_3}
+              alt="instructor Helly"
             />
 
-            <div class="social-link">
-              <a href="#" class="facebook">
+            <div className="social-link">
+              <a href="#" className="facebook">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
 
-              <a href="#" class="instagram">
+              <a href="#" className="instagram">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
 
-              <a href="#" class="twitter">
+              <a href="#" className="twitter">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </div>
           </div>
 
-          <h4 class="instructor-name">Fiona Dean</h4>
+          <h4 className="instructor-name">Helly</h4>
 
-          <p class="instructor-title">Instructor</p>
+          <p className="instructor-title">Tutor</p>
         </div>
 
-        <div class="instructor-card">
-          <div class="instructor-img-box">
+        <div className="instructor-card">
+          <div className="instructor-img-box">
             <img
-              src="./assets/images/instructor-4.jpg"
-              alt="instructor cherish sosa"
+              src={instructor_4}
+              alt="instructor ranchhod"
             />
 
-            <div class="social-link">
-              <a href="#" class="facebook">
+            <div className="social-link">
+              <a href="#" className="facebook">
                 <ion-icon name="logo-facebook"></ion-icon>
               </a>
 
-              <a href="#" class="instagram">
+              <a href="#" className="instagram">
                 <ion-icon name="logo-instagram"></ion-icon>
               </a>
 
-              <a href="#" class="twitter">
+              <a href="#" className="twitter">
                 <ion-icon name="logo-twitter"></ion-icon>
               </a>
             </div>
           </div>
 
-          <h4 class="instructor-name">Cherish Sosa</h4>
+          <h4 className="instructor-name">Rencho</h4>
 
-          <p class="instructor-title">Instructor</p>
+          <p className="instructor-title">Instructor</p>
         </div>
       </div>
     </section>

@@ -1,5 +1,5 @@
 import React from "react";
-
+import logo_footer from "../../assets/images/logo-footer.png"
 const index = () => {
   return (
     <footer>
@@ -7,7 +7,7 @@ const index = () => {
         <div class="grid-item">
           <div class="footer-logo">
             <img
-              src="./assets/images/logo-footer.png"
+              src={logo_footer}
               alt="educator logo white"
             />
           </div>

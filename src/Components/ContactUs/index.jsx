@@ -1,11 +1,11 @@
 import React from "react";
-
+import cta_bg_img from "../../assets/images/cta-bg-img.png";
 const index = () => {
   return (
     <section class="contact">
       <div class="contact-card" id="contact">
         <img
-          src="./assets/images/cta-bg-img.png"
+          src={cta_bg_img}
           alt="shape"
           class="contact-card-bg"
         />

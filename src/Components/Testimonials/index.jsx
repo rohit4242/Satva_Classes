@@ -1,4 +1,6 @@
 import React from "react";
+import quote  from '../../assets/images/quote.png';
+import Client  from '../../assets/images/client.jpg';
 
 const index = () => {
   return (
@@ -19,7 +21,7 @@ const index = () => {
       <div class="testimonials-right">
         <div class="testimonials-card">
           <img
-            src="./assets/images/quote.png"
+            src={quote}
             alt="quote icon"
             class="quote-img"
           />
@@ -34,7 +36,7 @@ const index = () => {
           <div class="testimonials-client">
             <div class="client-img-box">
               <img
-                src="./assets/images/client.jpg"
+                src={Client}
                 alt="client christine rose"
               />
             </div>
@@ -46,6 +48,7 @@ const index = () => {
             </div>
           </div>
         </div>
+        
       </div>
     </section>
   );
