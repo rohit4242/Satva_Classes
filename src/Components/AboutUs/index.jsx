@@ -9,17 +9,9 @@ const index = () => {
     <section class="about" id="about">
       <div class="about-left">
         <div class="img-box">
-          <img
-            src={about_img_bg}
-            alt="about bg"
-            class="about-bg"
-          />
+          <img src={about_img_bg} alt="about bg" class="about-bg" />
 
-          <img
-            src={about_img}
-            alt="about person"
-            class="about-img"
-          />
+          <img src={about_img} alt="about person" class="about-img" />
 
           <img
             src={banner_aliment_icon_1}
@@ -42,25 +34,31 @@ const index = () => {
         <h2 class="section-title">We Have Best Online Education</h2>
 
         <p class="section-text">
-          Morbi porttitor ligula id varius consectetur. Integer ipsum justo,
-          congue sit amet massa vel, porttitor semper magna. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+          Satva Institute is a structured academy complete in all aspects which
+          provides quality guidance for 6th-7th-8th-9th-10th-11th-12thstandards
+          in CBSE/GSEB/ICSE Board (English Medium+ગુજરાતી માધ્યમ)
         </p>
 
         <ul class="about-ul">
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
-            <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+            <p>
+              Education is the most powerful weapon which you can use to change
+              the world.
+            </p>
           </li>
 
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
-            <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+            <p>
+              The purpose of education is to replace an empty mind with an open
+              one.
+            </p>
           </li>
 
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
-            <p>Suspendisse nunc massa, pellentesque eu nibh eget.</p>
+            <p>Education is the key that unlocks the golden door to freedom.</p>
           </li>
         </ul>
 
