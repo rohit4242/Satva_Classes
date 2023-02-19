@@ -14,6 +14,7 @@
       href="https://fonts.googleapis.com/css2?family=Jost:wght@500;600;700;800;900&family=Roboto:wght@400;500&display=swap"
       rel="stylesheet"
     />
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
     <script
       type="module"
@@ -29,5 +30,19 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
+    <script>
+      let li = document.querySelectorAll(".faq-text li");
+      for (var i = 0; i < li.length; i++) {
+        li[i].addEventListener("click", (e)=>{
+          let clickedLi;
+          if(e.target.classList.contains("question-arrow")){
+            clickedLi = e.target.parentElement;
+          }else{
+            clickedLi = e.target.parentElement.parentElement;
+          }
+         clickedLi.classList.toggle("showAnswer");
+        });
+      }
+    </script>
   </body>
 </html>

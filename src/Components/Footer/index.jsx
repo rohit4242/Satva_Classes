@@ -1,15 +1,14 @@
 import React from "react";
-import logo_footer from "../../assets/images/logo-footer.png"
+import logo_footer from "../../assets/images/logo-footer.png";
+import { Link } from "react-router-dom";
+
 const index = () => {
   return (
     <footer>
       <div class="footer-grid">
         <div class="grid-item">
           <div class="footer-logo">
-            <img
-              src={logo_footer}
-              alt="educator logo white"
-            />
+            <img src={logo_footer} alt="educator logo white" />
           </div>
 
           <p class="footer-text">
@@ -54,7 +53,7 @@ const index = () => {
           </li>
 
           <li class="list-item">
-            <a href="#contact">Contact Us</a>
+            <Link to="contactPage">Contact Us</Link>
           </li>
         </ul>
 
@@ -62,15 +61,15 @@ const index = () => {
           <h4 class="item-heading">Other Link</h4>
 
           <li class="list-item">
-            <a href="#">Instructor</a>
+            <a href="#instructor">Instructor</a>
           </li>
 
           <li class="list-item">
-            <a href="#">FAQ</a>
+            <Link to="faq">FAQ</Link>
           </li>
 
           <li class="list-item">
-            <a href="#">Event</a>
+            <a href="#event">Event</a>
           </li>
 
           <li class="list-item">
@@ -96,8 +95,9 @@ const index = () => {
       </div>
 
       <p class="copyright">
-        Copyright © 2022 <a href="https://webbuilders.tech/">WebBuilders.tech</a>. All
-        rights reserved.
+        Copyright © 2022{" "}
+        <a href="https://webbuilders.tech/">WebBuilders.tech</a>. All rights
+        reserved.
       </p>
     </footer>
   );

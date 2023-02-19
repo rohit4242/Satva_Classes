@@ -1,5 +1,5 @@
 import React from "react";
-import cta_bg_img from "../../assets/images/cta-bg-img.png";
+import cta_bg_img from "../../assets/images/Screenshot__3_-removebg-preview.png";
 const index = () => {
   return (
     <section class="contact">

@@ -8,9 +8,9 @@ const index = () => {
   return (
     <section class="features">
       <div class="features-left">
-        <p class="section-subtitle">Core Features</p>
+        <p class="section-subtitle">Our Mission</p>
 
-        <h2 class="section-title">See What Our Mission Are</h2>
+        <h2 class="section-title">Enriching Minds, Changing Lives</h2>
 
         <ul>
           <li class="features-item">
@@ -22,11 +22,10 @@ const index = () => {
             </div>
 
             <div class="wrapper">
-              <h3 class="item-title">Student Life</h3>
+              <h3 class="item-title">Empowering Lifelong Learning</h3>
 
               <p class="item-text">
-                Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                consectetur dignissim dictum.
+              empower individuals to achieve their full potential through lifelong learning, offering innovative and accessible educational programs that foster personal and professional growth.
               </p>
             </div>
           </li>
@@ -40,11 +39,10 @@ const index = () => {
             </div>
 
             <div class="wrapper">
-              <h3 class="item-title">Best Online Class</h3>
+              <h3 class="item-title">Advancing Knowledge and Innovation</h3>
 
               <p class="item-text">
-                Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                consectetur dignissim dictum.
+              advance knowledge and innovation through cutting-edge research, teaching, and engagement, preparing the next generation of leaders to address the world's most pressing challenges.
               </p>
             </div>
           </li>
@@ -58,11 +56,10 @@ const index = () => {
             </div>
 
             <div class="wrapper">
-              <h3 class="item-title">24x7 Program</h3>
+              <h3 class="item-title">Transforming Lives Through Education</h3>
 
               <p class="item-text">
-                Nulla vestibulum pretium nibh at dignissim. Aliquam vehicula
-                consectetur dignissim dictum.
+              transform lives through education, promoting social mobility and economic growth by providing students with the tools and opportunities they need to succeed in an ever-changing world.
               </p>
             </div>
           </li>

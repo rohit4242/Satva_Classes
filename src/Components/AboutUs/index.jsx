@@ -31,7 +31,7 @@ const index = () => {
       <div class="about-right">
         <p class="section-subtitle">About Us</p>
 
-        <h2 class="section-title">We Have Best Online Education</h2>
+        <h2 class="section-title">Unlock your academic potential with us.</h2>
 
         <p class="section-text">
           Satva Institute is a structured academy complete in all aspects which
@@ -43,22 +43,25 @@ const index = () => {
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
             <p>
-              Education is the most powerful weapon which you can use to change
-              the world.
+              Unlock your academic potential with personalized coaching and
+              guidance from experienced faculty.
             </p>
           </li>
 
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
             <p>
-              The purpose of education is to replace an empty mind with an open
-              one.
+              We believe every student has the potential to succeed, and we're
+              here to help you unlock it. one.
             </p>
           </li>
 
           <li>
             <ion-icon name="checkmark-circle"></ion-icon>
-            <p>Education is the key that unlocks the golden door to freedom.</p>
+            <p>
+              Join our community of learners, mentors, and leaders and discover
+              your full potential.
+            </p>
           </li>
         </ul>
 

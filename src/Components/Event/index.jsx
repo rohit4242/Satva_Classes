@@ -3,7 +3,7 @@ import event_img from "../../assets/images/event-img.jpg";
 
 const index = () => {
   return (
-    <section class="event">
+    <section class="event" id="event">
       <div class="event-left">
         <div class="event-banner">
           <img

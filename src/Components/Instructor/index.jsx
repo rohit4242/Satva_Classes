@@ -6,7 +6,7 @@ import  instructor_4  from "../../assets/images/instructor-4.jpg";
 
 const index = () => {
   return (
-    <section className="instructor">
+    <section className="instructor" id="instructor">
       <p className="section-subtitle">Best Coach</p>
 
       <h2 className="section-title">Our Expert Instructor</h2>

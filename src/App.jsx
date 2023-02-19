@@ -1,37 +1,26 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import './App.css'
-import Header from './Layouts/index';
-import Home from './Components/Home/index';
-import CourseCategory from './Components/CourseCategory/index';
-import AboutUs from './Components/AboutUs/index';
-import Course from './Components/Course/index';
-import Event from './Components/Event/index';
-import Features from './Components/Features/index';
-import Instructor from './Components/Instructor/index';
-import Testimonials from './Components/Testimonials/index';
-import Blogs from './Components/Blogs/index';
-import ContactUs from './Components/ContactUs/index';
-import Footer from './Components/Footer/index';
+import "./App.css";
+import MainPage from "./Layouts/main";
+import FAQSection from "./Components/FAQSection/FAQSection";
+import Post from "./Components/Post/Post";
+
+import NotFoundPage from "./Layouts/NotFoundPage";
+
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
-
   return (
-    <div className="container">
-    <Header />
-    <Home />
-    <CourseCategory />
-    <AboutUs />
-    <Course />
-    <Event />
-    <Features />
-    <Instructor />
-    <Testimonials />
-    <Blogs />
-    <ContactUs />
-    <Footer />
-  </div>
-  )
+    <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<MainPage/>}/>
+      <Route path="faq" element={<FAQSection/>}/>
+      <Route path="blog/:postId" element={<Post/>}/>
+
+      <Route path="/*" element={<NotFoundPage/>}/>
+
+    </Routes>
+    </BrowserRouter>
+     
+  );
 }
 
-export default App
+export default App;

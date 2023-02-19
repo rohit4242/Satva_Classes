@@ -8,13 +8,10 @@ const index = () => {
       <div class="testimonials-left">
         <p class="section-subtitle">Testimonial</p>
 
-        <h2 class="section-title">What Our Client Says About Us</h2>
+        <h2 class="section-title">What Our Students Says About Us</h2>
 
         <p class="section-text">
-          Proin et lacus eu odio tempor porttitor id vel augue. Vivamus volutpat
-          vehicula sem, et imperdiet enim tempor id. Phasellus lobortis
-          efficitur nisl eget vehicula. Donec viverra blandit nunc, nec tempor
-          ligula ullamcorper venenatis.
+        We're proud of the success our students have achieved. Our commitment to providing quality education and individualized support has helped our students to excel in their academic pursuits. We believe that every student has the potential to succeed, and it's our privilege to be part of their journey towards a bright future.
         </p>
       </div>
 
@@ -27,10 +24,7 @@ const index = () => {
           />
 
           <p class="testimonials-text">
-            "Proin feugiat tortor non neque eleifend, at fermentum est
-            elementum. Ut mollis leo odio vulputate rutrum. Nunc sagittis sit
-            amet ligula ut eleifend. Mauris consequat mauris sit amet turpis
-            commodo fermentum. Quisque consequat tortor ut nisl finibus".
+            "I had a fantastic experience with Satva Institute. The instructors were extremely knowledgeable and supportive, and the curriculum was challenging yet engaging. Thanks to Satva Institute, I was able to achieve my academic goals and prepare for my future career. I highly recommend this institute to any student looking to succeed in their studies!".
           </p>
 
           <div class="testimonials-client">
@@ -42,9 +36,9 @@ const index = () => {
             </div>
 
             <div class="client-detail">
-              <h4 class="client-name">Christine Rose</h4>
+              <h4 class="client-name">Priyal Shah</h4>
 
-              <p class="client-title">Customer</p>
+              <p class="client-title">Student</p>
             </div>
           </div>
         </div>

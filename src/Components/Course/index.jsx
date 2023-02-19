@@ -12,9 +12,11 @@ import student_icon from "../../assets/images/student-icon.png";
 const index = () => {
   return (
     <section class="course" id="course">
-      <p class="section-subtitle">Our Online Courses</p>
+      <p class="section-subtitle">What We Offer</p>
 
-      <h2 class="section-title">Find The Right Online Course For You</h2>
+      <h2 class="section-title">
+        Discover high-quality modules designed for success.
+      </h2>
 
       <div class="course-grid">
         <div class="course-card">
@@ -23,47 +25,32 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+                Basic
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+                Fun Learning
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Become product manager learn skills.</a>
+              <a href="#">Pre-Foundation</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>5.0 (2k)</p>
-              </div>
+              <p class="author-name">
+                Our modules offer a comprehensive understanding of the material,
+                with experienced instructors who make learning fun and engaging.
+                We foster critical thinking and problem-solving skills,
+                preparing young learners for a successful academic career and a
+                lifelong love of learning.
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$50.00</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>600k</p>
+              <div class="course-price">
+                For Grade: 1<sup>st</sup> to 5<sup>th</sup>
               </div>
             </div>
           </div>
@@ -75,47 +62,32 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+                Learn with Passion
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+                Academic Boost
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Fashion and luxury fashion in a changing.</a>
+              <a href="#">Foundation</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>4.7 (5k)</p>
-              </div>
+              <p class="author-name">
+                Our modules are designed to enhance learning, boost confidence,
+                and inspire academic excellence. Our engaging curriculum and
+                expert instructors encourage creativity, collaboration, and
+                independent thinking, giving students the skills they need to
+                succeed in their future academic and professional endeavors.
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$80.00</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>545k</p>
+              <div class="course-price">
+                For Grade: 6<sup>th</sup> to 10<sup>th</sup>
               </div>
             </div>
           </div>
@@ -127,47 +99,33 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+                Financial Literacy
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+                Global Trade{" "}
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Learning to write as a professional.</a>
+              <a href="#">Commerce</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>4.1 (3k)</p>
-              </div>
+              <p class="author-name">
+                Our modules offer a comprehensive education in the fields of
+                finance, accounting, and management, preparing students for
+                success in the business world. an engaging curriculum that
+                emphasizes practical skills, provide students with the knowledge
+                and confidence they need to achieve their academic and
+                professional goals.
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$29.90</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>317k</p>
+              <div class="course-price">
+                For Grade: 11<sup>th</sup> And 12<sup>th</sup>
               </div>
             </div>
           </div>
@@ -179,47 +137,32 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+              STEM Education
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+              Science Lab
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Improving accessibility of Your markdown.</a>
+              <a href="#">PCM</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>4.8 (3.9k)</p>
-              </div>
+              <p class="author-name">
+                Our modules provide hands-on learning that prepares students for
+                success in a fast-paced world. Expert instructors and practical
+                curriculum develop critical thinking and problem-solving skills.
+                Our engaging approach inspires a passion for STEM, helping
+                students achieve their full potential.{" "}
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$49.90</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>891k</p>
+              <div class="course-price">
+                For Grade: 11<sup>th</sup> And 12<sup>th</sup> A-Group
               </div>
             </div>
           </div>
@@ -231,47 +174,33 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+              Health Sciences
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+              Medical Basics
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Master query in a short period of time.</a>
+              <a href="#">PCB</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>3.8 (1k)</p>
-              </div>
+              <p class="author-name">
+                Our modules provide an exceptional education that equips
+                students with practical skills needed to thrive in the dynamic
+                and challenging field of healthcare. With a focus on medical
+                theory and hands-on learning, inspires a passion for medicine
+                and helps students to become compassionate medical
+                professionals.
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$89.00</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>204k</p>
+              <div class="course-price">
+                For Grade: 11<sup>th</sup> And 12<sup>th</sup> B-Group
               </div>
             </div>
           </div>
@@ -283,48 +212,31 @@ const index = () => {
 
             <div class="course-tag-box">
               <a href="#" class="badge-tag orange">
-                Business
+              Intensive Training
               </a>
               <a href="#" class="badge-tag blue">
-                Marketing
+              Quick Learning
               </a>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Business Intelligence analyst Course 2022.</a>
+              <a href="#">Crash Course</a>
             </h3>
 
             <div class="wrapper border-bottom">
-              <div class="author">
-                <img
-                  src={course_instructor_img}
-                  alt="course instructor image"
-                  class="author-img"
-                />
-
-                <a href="#" class="author-name">
-                  Lillian Wals
-                </a>
-              </div>
-
-              <div class="rating">
-                <ion-icon name="star"></ion-icon>
-                <p>4.9 (23k)</p>
-              </div>
+              <p class="author-name">
+                Maximize your learning potential with our crash courses. Led by
+                experts and customized to your goals, our intensive courses
+                provide the knowledge and skills you need to succeed. With our
+                focused approach, you'll achieve your learning goals in record
+                time. Take the fast track to success with our crash courses.
+              </p>
             </div>
 
             <div class="wrapper">
-              <div class="course-price">$199.00</div>
-
-              <div class="enrolled">
-                <div class="icon-user">
-                  <img src={student_icon} alt="user icon" />
-                </div>
-
-                <p>1.3M</p>
-              </div>
+              <div class="course-price">For Every One</div>
             </div>
           </div>
         </div>

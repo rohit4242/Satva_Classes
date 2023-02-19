@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 
 import logo from "../assets/svg/Satva-logo.png";
 
@@ -11,7 +11,7 @@ function Index() {
           <img src={logo} alt="Educator Logo" width="140" />
         </div>
 
-        <ul className={open ? 'navbar-nav active' : 'navbar-nav '}>
+        <ul className={open ? "navbar-nav active" : "navbar-nav "}>
           <li className="nav-item">
             <a href="#home">Home</a>
           </li>
@@ -29,12 +29,18 @@ function Index() {
           </li>
         </ul>
 
-        <button className="btn btn-primary">
-          <p className="btn-text">Try for free</p>
-          <span className="square"></span>
-        </button>
+        <a href="#contact" alt="contact">
+          {" "}
+          <button className="btn btn-primary">
+            <p className="btn-text">Contact Us</p>
+            <span className="square"></span>
+          </button>
+        </a>
 
-        <button className={open ? 'nav-toggle-btn active' : 'nav-toggle-btn '} onClick={() => setOpen(!open)}>
+        <button
+          className={open ? "nav-toggle-btn active" : "nav-toggle-btn "}
+          onClick={() => setOpen(!open)}
+        >
           <span className="one"></span>
           <span className="two"></span>
           <span className="three"></span>
