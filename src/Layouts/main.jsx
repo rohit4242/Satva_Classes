@@ -8,6 +8,8 @@ import Event from "../Components/Event/index";
 import Features from "../Components/Features/index";
 import Instructor from "../Components/Instructor/index";
 import Testimonials from "../Components/Testimonials/index";
+import FAQSection from "../Components/FAQSection/FAQSection";
+
 import Blogs from "../Components/Blogs/Blogs";
 import ContactUs from "../Components/ContactUs/index";
 import Footer from "../Components/Footer/index";
@@ -24,6 +26,7 @@ const mainPage = () => {
       <Features />
       <Instructor />
       <Testimonials />
+      <FAQSection/>
       <Blogs />
       <ContactUs />
       <Footer />

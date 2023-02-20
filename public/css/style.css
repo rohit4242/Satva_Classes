@@ -166,7 +166,7 @@ html {
   transform: translateX(-50%);
   width: 100%;
   /* max-width: 1440px; */
-  background: hsla(0, 0%, 100%, 0.9);
+  background: hsla(0, 0%, 100%, 0.5);
   backdrop-filter: blur(15px);
   display:         flex;
   justify-content: space-between;

@@ -1,110 +1,156 @@
 import React from "react";
-import './FAQSection.css';
+
 const FAQSection = () => {
   return (
-    <div>
-      <h2>Frequently Asked Questions</h2>
+    <section class="testimonials">
+      <div class="testimonials-left">
+        <p class="section-subtitle">FAQ</p>
 
-      <div style={{visibility: "hidden", position: "absolute", width: "0px", height: "0px"}}>
-        <svg xmlns="http://www.w3.org/2000/svg">
-          <symbol viewBox="0 0 24 24" id="expand-more">
-            <path d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z" />
-            <path d="M0 0h24v24H0z" fill="none" />
-          </symbol>
-          <symbol viewBox="0 0 24 24" id="close">
-            <path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
-            <path d="M0 0h24v24H0z" fill="none" />
-          </symbol>
-        </svg>
+        <h2 class="section-title">Frequently Asked Questions</h2>
+
+        <p class="section-text">
+          Have questions? Check out our frequently asked questions to find quick
+          answers to common inquiries. If you can't find what you're looking
+          for, feel free to contact our support team for further assistance.
+        </p>
       </div>
 
-      <details open>
-        <summary>
-          Does this product have what I need?
-          <svg
-            className="control-icon control-icon-expand"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#expand-more"
-            />
-          </svg>
-          <svg
-            className="control-icon control-icon-close"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#close"
-            />
-          </svg>
-        </summary>
-        <p>Totally. Totally does.</p>
-      </details>
+      <div class="testimonials-right">
+        <div class="testimonials-card">
+          {/* <img
+            // src={quote}
+            alt="quote icon"
+            class="quote-img"
+          /> */}
+          <details open style={{padding:'10px',marginTop:'5px',marginBottom:'5px', backgroundColor:"#e2e8f0",borderRadius:'10px'}}>
+            <summary >
+              What payment methods do you accept?
+              <svg
+                className="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#expand-more"
+                />
+              </svg>
+              <svg
+                className="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#close"
+                />
+              </svg>
+            </summary>
+            <p style={{marginTop:'10px',marginBottom:'5px',padding:'10px', borderRadius:'10px',backgroundColor:"#f1f5f9"}}>
+              You can pay for your course in person using cash, check, or credit
+              card.
+            </p>
+          </details>
 
-      <details>
-        <summary>
-          Can I use it all the time?
-          <svg
-            className="control-icon control-icon-expand"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#expand-more"
-            />
-          </svg>
-          <svg
-            className="control-icon control-icon-close"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#close"
-            />
-          </svg>
-        </summary>
-        <p>Of course you can, we won't stop you.</p>
-      </details>
-
-      <details>
-        <summary>
-          Are there any restrictions?
-          <svg
-            className="control-icon control-icon-expand"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#expand-more"
-            />
-          </svg>
-          <svg
-            className="control-icon control-icon-close"
-            width="24"
-            height="24"
-            role="presentation"
-          >
-            <use
-              xmlnsXlink="http://www.w3.org/1999/xlink"
-              xlinkHref="#close"
-            />
-          </svg>
-        </summary>
-        <p>Only your imagination my friend. Go forth!</p>
-      </details>
-    </div>
+          <details style={{padding:'10px',marginTop:'5px',marginBottom:'5px', backgroundColor:"#e2e8f0",borderRadius:'10px'}}>
+            <summary >
+              Are there any scholarships or financial aid available for courses?
+              <svg
+                className="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#expand-more"
+                />
+              </svg>
+              <svg
+                className="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#close"
+                />
+              </svg>
+            </summary>
+            <p style={{marginTop:'10px',marginBottom:'5px',padding:'10px', borderRadius:'10px',backgroundColor:"#f1f5f9"}}>
+              Yes, we offer scholarships and financial aid to eligible students.
+              Please contact our office for more information.
+            </p>
+          </details>
+          <details style={{padding:'10px',marginTop:'5px',marginBottom:'5px', backgroundColor:"#e2e8f0",borderRadius:'10px'}}>
+            <summary >
+              Can I get individual assistance with coursework outside of class
+              time?
+              <svg
+                className="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#expand-more"
+                />
+              </svg>
+              <svg
+                className="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#close"
+                />
+              </svg>
+            </summary>
+            <p style={{marginTop:'10px',marginBottom:'5px',padding:'10px', borderRadius:'10px',backgroundColor:"#f1f5f9"}}>
+              Yes, we offer one-on-one tutoring sessions with our expert
+              instructors.
+            </p>
+          </details>
+          <details style={{padding:'10px',marginTop:'5px',marginBottom:'5px', backgroundColor:"#e2e8f0",borderRadius:'10px'}}>
+            <summary>
+              What are the office hours of the institute?
+              <svg
+                className="control-icon control-icon-expand"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#expand-more"
+                />
+              </svg>
+              <svg
+                className="control-icon control-icon-close"
+                width="24"
+                height="24"
+                role="presentation"
+              >
+                <use
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                  xlinkHref="#close"
+                />
+              </svg>
+            </summary>
+            <p style={{marginTop:'10px',marginBottom:'5px',padding:'10px', borderRadius:'10px',backgroundColor:"#f1f5f9"}}>
+              Our office hours are from 9 AM to 5 PM on weekdays and 9 AM to 1
+              PM on Saturdays.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
   );
 };
 

@@ -48,6 +48,7 @@ const index = () => {
             <a href="#course">Courses</a>
           </li>
 
+
           <li class="list-item">
             <a href="#blog">Blog</a>
           </li>
@@ -73,7 +74,7 @@ const index = () => {
           </li>
 
           <li class="list-item">
-            <a href="#">Privacy Policy</a>
+            <Link to="privacy-policy">Privacy Policy</Link>
           </li>
 
           <li class="list-item">
