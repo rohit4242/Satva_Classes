@@ -16,7 +16,7 @@ import banner_aliment_icon_3 from "../../assets/svg/banner-aliment-icon-2.svg";
 import banner_aliment_icon_4 from "../../assets/images/banner-aliment-icon-4.png";
 
 
-const index = () => {
+const index = ({openSide, setOpenSide}) => {
   return (
     <section className="home" id="home">
       <div className="deco-shape shape-1">
@@ -53,7 +53,7 @@ const index = () => {
             <span className="square"></span>
           </button>
 
-          <button className="btn btn-secondary">
+          <button className="btn btn-secondary" onClick={() => setOpenSide(!openSide)}>
             <p className="btn-text">Contact Us</p>
             <span className="square"></span>
           </button>
