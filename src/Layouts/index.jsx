@@ -1,9 +1,32 @@
-import React, { useState } from "react";
-
+import React, { useRef, useState } from "react";
+import emailjs from "@emailjs/browser";
 import logo from "../assets/svg/Satva-logo.png";
 
 function Index({ openSide, setOpenSide }) {
   let [open, setOpen] = useState(false);
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_a16u8n2",
+        "template_3dbyz9h",
+        form.current,
+        "iUdMuBNRGw3avQhjn"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          form.current.reset();
+          alert("Your Email Was Successfully Send");
+        },
+        (error) => {
+          console.log(error.text);
+          form.current.reset();
+          alert(error.text);
+        }
+      );
+  };
 
   return (
     <>
@@ -84,58 +107,64 @@ function Index({ openSide, setOpenSide }) {
         </button>
 
         <div className="flex flex-col justify-between flex-1 mt-6">
-          <section class="bg-white">
-            <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-              <h2 class="section-title-for-contact-page py-4">Contact Us</h2>
-              <p class="section-text">Hey Contact With Us Right Now </p>
-              <form action="#" class="space-y-8">
+          <section className="bg-white">
+            <div className="max-w-screen-md px-4 py-8 mx-auto lg:py-16">
+              <h2 className="py-4 section-title-for-contact-page">
+                Contact Us
+              </h2>
+              <p className="section-text">Hey Contact With Us Right Now </p>
+              <form className="space-y-8" ref={form} onSubmit={sendEmail}>
                 <div>
                   <label
-                    for="email"
-                    class="block section-text mt-2 mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    htmlFor="email"
+                    className="block mt-2 mb-2 text-sm font-medium text-gray-900 section-text dark:text-gray-300"
                   >
                     Your email
                   </label>
                   <input
                     type="email"
-                    id="email"
-                    class="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    id="user_email"
+                    name="user_email"
+                    className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="name@satvainstitute.com"
                     required
                   />
                 </div>
                 <div>
                   <label
-                    for="subject"
-                    class="block section-text mt-2 mb-2 text-sm font-medium text-gray-900 dark:text-gray-300"
+                    htmlFor="subject"
+                    className="block mt-2 mb-2 text-sm font-medium text-gray-900 section-text dark:text-gray-300"
                   >
                     Subject
                   </label>
                   <input
                     type="text"
-                    id="subject"
-                    class="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
+                    id="user_subject"
+                    name="user_subject"
+                    className="block w-full p-3 text-sm text-gray-900 border border-gray-300 rounded-lg shadow-sm bg-gray-50 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500 dark:shadow-sm-light"
                     placeholder="Let us know how we can help you"
                     required
                   />
                 </div>
-                <div class="sm:col-span-2">
+                <div className="sm:col-span-2">
                   <label
-                    for="message"
-                    class="block section-text mt-2 mb-2 text-sm font-medium text-gray-900 dark:text-gray-400"
+                    htmlFor="message"
+                    className="block mt-2 mb-2 text-sm font-medium text-gray-900 section-text dark:text-gray-400"
                   >
                     Your message
                   </label>
                   <textarea
-                    id="message"
+                    id="user_message"
+                    name="user_message"
                     rows="6"
-                    class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
+                    className="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500"
                     placeholder="Leave a comment..."
                   ></textarea>
                 </div>
                 <button
-                  className="btn btn-primary my-4"
-                  onClick={() => setOpenSide(!openSide)}
+                  type="submit"
+                  className="my-4 btn btn-primary"
+                  // onClick={() => setOpenSide(!openSide)}
                 >
                   <p className="btn-text">Submit</p>
                   <span className="square"></span>
