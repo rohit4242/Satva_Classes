@@ -11,7 +11,7 @@ const index = () => {
 
       <div class="blog-grid">
         {data.map((value) => {
-          return <Card key={value.id} id={value.id} image={value.image} title={value.blog_title} cal_img={value.cal_img}  date={value.date} comment_img={value.comment_img} comment={value.comment} />
+          return <Card key={value.id} id={value.id} image={value.image} intro_paragraph={value.intro_paragraph} title={value.blog_title} cal_img={value.cal_img}  date={value.date} comment_img={value.comment_img} comment={value.comment} content={value.content}/>
         })}
       </div>
     </section>
