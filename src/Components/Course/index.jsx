@@ -242,10 +242,6 @@ const index = () => {
         </div>
       </div>
 
-      <button class="btn btn-primary">
-        <p class="btn-text">View All Course</p>
-        <span class="square"></span>
-      </button>
     </section>
   );
 };

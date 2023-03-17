@@ -1,5 +1,5 @@
 import React from "react";
-import logo_footer from "../../assets/images/logo-footer.png";
+import logo_footer from "../../assets/svg/Satva-logo.png";
 
 const index = () => {
   return (
@@ -11,9 +11,8 @@ const index = () => {
           </div>
 
           <p class="footer-text">
-            Duis a tempor magna. Maecenas ligula felis, imperdiet quis arcu
-            eget, blandit ultricies risus. Vivamus fringilla urna vel risus
-            congue accumsan.
+            Unlock your potential with Satva Institute - your guide to success
+            through personalized coaching and mentorship
           </p>
 
           <div class="social-link">
@@ -80,7 +79,9 @@ const index = () => {
           <li class="list-item">
             {" "}
             <p>
-              <a href="mailto:inquiry@satvaclasses.com">inquiry@satvaclasses.com</a>
+              <a href="mailto:inquiry@satvaclasses.com">
+                inquiry@satvaclasses.com
+              </a>
             </p>
           </li>
         </ul>
@@ -111,7 +112,9 @@ const index = () => {
           <li class="list-item">
             {" "}
             <p>
-              <a href="mailto:inquiry@satvaclasses.com">inquiry@satvaclasses.com</a>
+              <a href="mailto:inquiry@satvaclasses.com">
+                inquiry@satvaclasses.com
+              </a>
             </p>
           </li>
         </div>

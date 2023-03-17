@@ -15,8 +15,7 @@ import banner_aliment_icon_2 from "../../assets/images/banner-aliment-icon-2.png
 import banner_aliment_icon_3 from "../../assets/svg/banner-aliment-icon-2.svg";
 import banner_aliment_icon_4 from "../../assets/images/banner-aliment-icon-4.png";
 
-
-const index = ({openSide, setOpenSide}) => {
+const index = ({ openSide, setOpenSide }) => {
   return (
     <section className="home" id="home">
       <div className="deco-shape shape-1">
@@ -36,24 +35,31 @@ const index = ({openSide, setOpenSide}) => {
         <p className="section-subtitle">Welcome To Satva Institute</p>
 
         <h1 className="main-heading">
-        Creteing a brighter future through 
+          Creteing a brighter future through
           <span className="underline-img">
-          Education <img src={banner_line} alt="line" />
+            Education <img src={banner_line} alt="line" />
           </span>
         </h1>
 
         <p className="section-text">
-        We are committed to providing a world-class education to students of all ages. Our experienced faculty and state-of-the-art facilities create a dynamic and engaging learning environment. Explore our programs and resources to find out how we can support your academic journey. 
-        Join us and discover the limitless potential of education.
+          We are committed to providing a world-class education to students of
+          all ages. Our experienced faculty and state-of-the-art facilities
+          create a dynamic and engaging learning environment. Explore our
+          programs and resources to find out how we can support your academic
+          journey. Join us and discover the limitless potential of education.
         </p>
 
         <div className="home-btn-group">
-          <button className="btn btn-primary">
-            <p className="btn-text">Explore Courses</p>
-            <span className="square"></span>
-          </button>
-
-          <button className="btn btn-secondary" onClick={() => setOpenSide(!openSide)}>
+          <a href="#course">
+            <button className="btn btn-primary">
+              <p className="btn-text">Explore Courses</p>
+              <span className="square"></span>
+            </button>
+          </a>
+          <button
+            className="btn btn-secondary"
+            onClick={() => setOpenSide(!openSide)}
+          >
             <p className="btn-text">Contact Us</p>
             <span className="square"></span>
           </button>
@@ -67,11 +73,7 @@ const index = ({openSide, setOpenSide}) => {
             alt="colorful background shape"
             className="background-shape"
           />
-          <img
-            src={banner_img}
-            alt="banner"
-            className="banner-img"
-          />
+          <img src={banner_img} alt="banner" className="banner-img" />
 
           <img
             src={banner_aliment_icon_1}
