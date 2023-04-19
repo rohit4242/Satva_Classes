@@ -7,7 +7,8 @@ const index = () => {
       <div class="footer-grid">
         <div class="grid-item">
           <div class="footer-logo">
-            <img src={logo_footer} alt="educator logo white" />
+            <h2 class="satva-institute-text">Satva Institute </h2>
+            {/* <img src={logo_footer} alt="educator logo white" /> */}
           </div>
 
           <p class="footer-text">

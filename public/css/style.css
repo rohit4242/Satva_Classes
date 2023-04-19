@@ -1624,7 +1624,9 @@ footer {
   margin-bottom: 35px;
   line-height: 1.6;
 }
-
+.satva-institute-text{
+  color: var(--red-orange-color-wheel);
+}
 .social-link {
   display: flex;
   align-items: center;
