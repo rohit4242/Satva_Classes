@@ -122,9 +122,8 @@ const index = () => {
       </div>
 
       <p class="copyright">
-        Copyright © 2022{" "}
-        <a href="https://webbuilders.tech/">WebBuilders.tech</a>. All rights
-        reserved.
+        Copyright © 2023 <a href="https://therencho.com/">The Rencho</a>. All
+        rights reserved.
       </p>
     </footer>
   );

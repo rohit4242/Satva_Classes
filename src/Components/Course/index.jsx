@@ -24,18 +24,14 @@ const index = () => {
             <img src={course_1} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-                Basic
-              </a>
-              <a href="#" class="badge-tag blue">
-                Fun Learning
-              </a>
+              <span class="badge-tag orange">Basic</span>
+              <span class="badge-tag blue">Fun Learning</span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Pre-Foundation</a>
+              <a href="#course">Pre-Foundation</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -61,18 +57,14 @@ const index = () => {
             <img src={course_2} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-                Learn with Passion
-              </a>
-              <a href="#" class="badge-tag blue">
-                Academic Boost
-              </a>
+              <span class="badge-tag orange">Learn with Passion</span>
+              <span class="badge-tag blue">Academic Boost</span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Foundation</a>
+              <a href="#course">Foundation</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -98,18 +90,14 @@ const index = () => {
             <img src={course_3} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-                Financial Literacy
-              </a>
-              <a href="#" class="badge-tag blue">
-                Global Trade{" "}
-              </a>
+              <span class="badge-tag orange">Financial Literacy</span>
+              <span class="badge-tag blue">Global Trade </span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Commerce</a>
+              <a href="#course">Commerce</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -136,18 +124,14 @@ const index = () => {
             <img src={course_4} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-              STEM Education
-              </a>
-              <a href="#" class="badge-tag blue">
-              Science Lab
-              </a>
+              <span class="badge-tag orange">STEM Education</span>
+              <span class="badge-tag blue">Science Lab</span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">PCM</a>
+              <a href="#course">PCM</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -173,18 +157,14 @@ const index = () => {
             <img src={course_5} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-              Health Sciences
-              </a>
-              <a href="#" class="badge-tag blue">
-              Medical Basics
-              </a>
+              <span class="badge-tag orange">Health Sciences</span>
+              <span class="badge-tag blue">Medical Basics</span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">PCB</a>
+              <a href="#course">PCB</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -211,18 +191,14 @@ const index = () => {
             <img src={course_6} alt="course banner" />
 
             <div class="course-tag-box">
-              <a href="#" class="badge-tag orange">
-              Intensive Training
-              </a>
-              <a href="#" class="badge-tag blue">
-              Quick Learning
-              </a>
+              <span class="badge-tag orange">Intensive Training</span>
+              <span class="badge-tag blue">Quick Learning</span>
             </div>
           </div>
 
           <div class="course-content">
             <h3 class="card-title">
-              <a href="#">Crash Course</a>
+              <a href="#course">Crash Course</a>
             </h3>
 
             <div class="wrapper border-bottom">
@@ -241,7 +217,6 @@ const index = () => {
           </div>
         </div>
       </div>
-
     </section>
   );
 };

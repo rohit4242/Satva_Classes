@@ -9,10 +9,10 @@ function Index({ openSide, setOpenSide }) {
     e.preventDefault();
     emailjs
       .sendForm(
-        "service_a16u8n2",
-        "template_3dbyz9h",
+        "service_ooaqruc",
+        "template_3f8bzed",
         form.current,
-        "iUdMuBNRGw3avQhjn"
+        "P2xUMdYbigeM80fla"
       )
       .then(
         (result) => {
